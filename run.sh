@@ -1,0 +1,1 @@
+nohup python -u main.py --base configs/latent-diffusion/synapse-cls2-ldm-kl-8.yaml -t --gpus 0, --name experiment_name > nohup/experiment_name.log 2>&1 &

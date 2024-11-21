@@ -1,0 +1,8 @@
+nohup: ignoring input
+Global seed set to 23
+Running on GPUs 0,
+LatentDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 294.97 M params.
+Keeping EMAs of 522.
+[32mRestored KL-first-stage-model from models/first_stage_models/kl-f8/model.ckpt with 0 missing and 56 unexpected keys[0m
+[32mRestored Conditioning-model from models/first_stage_models/kl-f8/model.ckpt with 0 missing and 0 unexpected keys[0m
