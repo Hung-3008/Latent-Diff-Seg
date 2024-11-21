@@ -4,7 +4,7 @@ from torch import nn, einsum
 import torch.nn.functional as F
 from functools import partial
 from inspect import isfunction
-from collections.abc import namedtuple
+from collections import namedtuple
 from einops import rearrange, repeat, reduce
 
 # constants
