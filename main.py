@@ -749,7 +749,7 @@ if __name__ == "__main__":
         trainer_kwargs["callbacks"] = [instantiate_from_config(callbacks_cfg[k]) for k in callbacks_cfg]
         # trainer_kwargs["precision"] = 16    #
         # trainer_kwargs["strategy"] = "ddp_find_unused_parameters_false"
-        trainer = Trainer.from_argparse_args(trainer_opt, accelerator='gpu', gpus=1 ,**trainer_kwargs)
+        trainer = Trainer.from_argparse_args(trainer_opt ,**trainer_kwargs)
         trainer.logdir = logdir  ###
 
         # data
